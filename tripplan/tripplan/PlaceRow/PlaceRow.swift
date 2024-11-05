@@ -29,6 +29,13 @@ struct PlaceRow: View {
                     Text(place.name)
                         .font(.title)
                     Text(place.category)
+                        .padding(.vertical, 6)
+                        .padding(.horizontal, 10)
+                        .foregroundColor(.black)
+                        .background(Color.white)
+                        .cornerRadius(10)
+                        .shadow(radius: 3, x: 0, y: 3)
+                        
                 }
                 
                 Spacer()
@@ -41,33 +48,18 @@ struct PlaceRow: View {
             } label: {
                 if let linkTitle = place.linkTitle {
                     Text(linkTitle)
-                        .underline()
-                        .foregroundColor(.blue)
+                        .padding()
+                        .foregroundColor(.black)
+                        .background(Color.white)
+                        .cornerRadius(10)
+                        .shadow(radius: 3, x: -3, y: 3)
                 }
             }
             
         }
         .padding()
         .background(RoundedRectangle(cornerRadius: 10).stroke(Color.gray, lineWidth: 1))
-//        HStack{
-//            Button {
-//
-//            } label: {
-//                Text("편집하기")
-//                    .background(RoundedRectangle(cornerRadius: 10).stroke(Color.gray, lineWidth: 1))
-//            }
-//
-//
-//            Spacer()
-//            Button {
-//
-//            } label: {
-//                Text("메모추가")
-//                    .background(RoundedRectangle(cornerRadius: 10).stroke(Color.gray, lineWidth: 1))
-//            }
-//
-//
-//        }
+        .padding(.top, 10)
     }
 }
 
@@ -77,7 +69,7 @@ struct PlaceRow: View {
         name: "예시 장소",
         category: "음식점",
         startTime: Date(),
-        linkTitle: "링크 제목 예시",
+        linkTitle: "google",
         link: "https://example.com"
     ))
 }

@@ -11,6 +11,7 @@ struct ItineraryDetailView: View {
     let destination: String
     let dates: [Date]
     
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     @State private var selectedDate: Date? = nil
     @State private var showModal = false
     // 날짜별로 저장된 장소들을 관리
@@ -20,14 +21,28 @@ struct ItineraryDetailView: View {
         VStack {
             // 상단 제목
             HStack {
-                Text(destination)
-                    .font(.largeTitle)
-                    .bold()
+                Button {
+                    presentationMode.wrappedValue.dismiss()
+                } label: {
+                    Image(systemName: "arrow.left")
+                        .font(.system(size: 34))
+                        .foregroundColor(.black)
+                }
                 Spacer()
             }
             .padding(.horizontal)
-            .padding(.top)
-
+            .padding(.top, 10)
+            .padding(.leading, -5)
+            
+            VStack(alignment: .leading){
+                Text("\(destination)")
+//                    .multilineTextAlignment(.leading)
+                    .font(.system(size: 24))
+                    .padding(.top, 20)
+            }
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding()
+            
             // 날짜 수평 스크롤 뷰
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 15) {
@@ -46,7 +61,7 @@ struct ItineraryDetailView: View {
                 .padding(.horizontal)
             }
             .padding(.vertical)
-
+            
             // 선택된 날짜에 따른 장소 목록 표시
             if let date = selectedDate, let places = sortedPlaces(for: date) {
                 ScrollViewReader { proxy in
@@ -87,7 +102,7 @@ struct ItineraryDetailView: View {
                     Text("날짜를 선택하고 장소를 추가하세요.")
                         .foregroundColor(.gray)
                         .padding()
-
+                    
                     // 플러스 버튼 (기본 위치)
                     Button(action: {
                         showModal = true
@@ -104,9 +119,9 @@ struct ItineraryDetailView: View {
                     .padding()
                 }
             }
-
+            
             Spacer()
-
+            
             // 저장 버튼
             Button {
                 print("여행 저장: \(savedPlaces)")

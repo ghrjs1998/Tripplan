@@ -10,9 +10,9 @@ import SwiftUI
 struct LoginView: View {
     // 소셜 로그인 버튼의 데이터
     let socialLogins = [
-        ("naver", "네이버로 로그인하기", Color.green, Color.white, false),
-        ("kakao", "카카오로 로그인하기", Color.yellow, Color.black, false),
-        ("google", "구글로 로그인하기", Color.white, Color.black, true)
+        ("navericon", "네이버로 로그인하기", Color.green, Color.white, false),
+        ("kakaoicon", "카카오로 로그인하기", Color.yellow, Color.black, false),
+        ("googleicon", "구글로 로그인하기", Color.white, Color.black, true)
     ]
 
     var body: some View {
@@ -25,7 +25,7 @@ struct LoginView: View {
             .padding()
 
             // ForEach로 소셜 로그인 버튼 생성
-            VStack(spacing: 0) {
+            VStack(spacing: -20) {
                 ForEach(socialLogins, id: \.0) { login in
                     SocialLoginButton(
                         image: login.0,
@@ -54,29 +54,33 @@ struct SocialLoginButton: View {
     var hasBorder: Bool = false
 
     var body: some View {
-        ZStack {
-            Capsule()
-                .frame(width: 350, height: 60)
-                .foregroundColor(backgroundColor)
-                .overlay(
-                    Capsule()
-                        .stroke(Color.gray, lineWidth: hasBorder ? 1 : 0)
-                )
-            HStack {
-                Image(image)
-                    .resizable()
-                    .frame(width: 24, height: 24)
-                    .padding()
+        Button {
+            
+        } label: {
+            ZStack {
+                Capsule()
+                    .frame(width: 350, height: 60)
+                    .foregroundColor(backgroundColor)
+                    .overlay(
+                        Capsule()
+                            .stroke(Color.gray, lineWidth: hasBorder ? 1 : 0)
+                    )
+                HStack {
+                    Image(image)
+                        .resizable()
+                        .frame(width: 24, height: 24)
+                        .padding()
 
-                Spacer()
+                    Spacer()
 
-                Text(text)
-                    .foregroundColor(textColor)
-                    .padding()
+                    Text(text)
+                        .foregroundColor(textColor)
+                        .padding()
 
-                Spacer()
+                    Spacer()
+                }
+                .padding()
             }
-            .padding()
         }
     }
 }

@@ -1,5 +1,5 @@
 //
-//  ItineraryDetailView.swift
+//  CountryListView.swift
 //  tripplan
 //
 //  Created by 박호건 on 10/28/24.

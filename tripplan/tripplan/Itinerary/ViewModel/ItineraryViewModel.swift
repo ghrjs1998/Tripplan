@@ -50,7 +50,7 @@ class ItineraryViewModel: ObservableObject {
             city: destination
         )
 
-        guard let url = URL(string: "https://yourapi.com/plans") else {
+        guard let url = URL(string: "http://127.0.0.1:8080/plans") else {
             logger.error("유효하지 않은 URL")
             self.errorMessage = "유효하지 않은 요청입니다."
             return

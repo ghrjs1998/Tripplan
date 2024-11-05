@@ -8,37 +8,37 @@
 import SwiftUI
 
 struct HomeView: View {
-    @State private var itineraries: [String] = [] // 일정 배열
+    @StateObject private var viewModel = HomeViewModel()
+    
     var body: some View {
-        NavigationStack{
-            VStack{
-                HStack(spacing: 10){
+        NavigationStack {
+            VStack {
+                HStack(spacing: 10) {
                     Circle()
                         .frame(width: 40, height: 40)
                         .foregroundColor(.gray)
-                    Text("티디아이 님")
+                    Text("\(viewModel.userName) 님")
                     
                     Spacer()
                     
                     Button {
-                        
+                        // 알림 버튼 기능 구현
                     } label: {
                         Image(systemName: "bell")
                             .foregroundColor(.black)
                     }
-                    
                 }
                 .padding()
                 
                 Spacer()
                 
-                VStack{
+                VStack {
                     Text("어디로 떠나시나요?")
                         .font(.system(size: 24))
                     
-                    ZStack{
+                    ZStack {
                         Rectangle()
-                            .frame(width:323, height: 191)
+                            .frame(width: 323, height: 191)
                             .cornerRadius(20)
                             .foregroundColor(.white)
                             .shadow(color: .black.opacity(0.2), radius: 10, x: 0, y: 5)

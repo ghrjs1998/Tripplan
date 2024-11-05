@@ -14,19 +14,27 @@
 		0A14DE032CD1F46400FB26AE /* tripplanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE022CD1F46400FB26AE /* tripplanTests.swift */; };
 		0A14DE0D2CD1F46400FB26AE /* tripplanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE0C2CD1F46400FB26AE /* tripplanUITests.swift */; };
 		0A14DE0F2CD1F46400FB26AE /* tripplanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE0E2CD1F46400FB26AE /* tripplanUITestsLaunchTests.swift */; };
-		0A14DE1D2CD1F4A900FB26AE /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE1C2CD1F4A900FB26AE /* ModalView.swift */; };
-		0A14DE202CD1F4C900FB26AE /* RegionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE1F2CD1F4C900FB26AE /* RegionListView.swift */; };
-		0A14DE232CD1F4F500FB26AE /* CountryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE222CD1F4F500FB26AE /* CountryListView.swift */; };
 		0A14DE262CD1F51300FB26AE /* CustomCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE252CD1F51300FB26AE /* CustomCalendarView.swift */; };
-		0A14DE2A2CD1F53600FB26AE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE292CD1F53600FB26AE /* LoginView.swift */; };
-		0A14DE2C2CD1F54A00FB26AE /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE2B2CD1F54A00FB26AE /* StartView.swift */; };
-		0A14DE2F2CD1F56400FB26AE /* ItineraryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE2E2CD1F56400FB26AE /* ItineraryDetailView.swift */; };
-		0A14DE322CD1F57700FB26AE /* ItineraryCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE312CD1F57700FB26AE /* ItineraryCreateView.swift */; };
-		0A14DE382CD1F5B600FB26AE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE372CD1F5B600FB26AE /* HomeView.swift */; };
 		0A14DE3B2CD1F5CC00FB26AE /* PlaceRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE3A2CD1F5CC00FB26AE /* PlaceRow.swift */; };
 		0A14DE402CD1FCC900FB26AE /* ItineraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE3F2CD1FCC900FB26AE /* ItineraryView.swift */; };
 		0A14DE422CD1FCE300FB26AE /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE412CD1FCE300FB26AE /* Plan.swift */; };
 		0A14DE442CD1FD1100FB26AE /* ItineraryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE432CD1FD1100FB26AE /* ItineraryViewModel.swift */; };
+		0A14DE4A2CD3471700FB26AE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE492CD3471700FB26AE /* HomeView.swift */; };
+		0A14DE4C2CD3476D00FB26AE /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE4B2CD3476D00FB26AE /* HomeViewModel.swift */; };
+		0A14DE4E2CD347C700FB26AE /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE4D2CD347C700FB26AE /* HomeModel.swift */; };
+		0A14DE532CD3480400FB26AE /* ItineraryCreateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE522CD3480400FB26AE /* ItineraryCreateViewModel.swift */; };
+		0A14DE552CD3481000FB26AE /* ItineraryCreateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE542CD3481000FB26AE /* ItineraryCreateModel.swift */; };
+		0A14DE572CD3482500FB26AE /* ItineraryCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE562CD3482500FB26AE /* ItineraryCreateView.swift */; };
+		0A14DE6B2CD348C800FB26AE /* ItineraryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE6A2CD348C800FB26AE /* ItineraryDetailView.swift */; };
+		0A14DE6D2CD348E700FB26AE /* ItineraryDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE6C2CD348E700FB26AE /* ItineraryDetailModel.swift */; };
+		0A14DE6F2CD348F300FB26AE /* ItineraryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE6E2CD348F300FB26AE /* ItineraryDetailViewModel.swift */; };
+		0A14DE712CD3490000FB26AE /* StartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE702CD3490000FB26AE /* StartViewModel.swift */; };
+		0A14DE732CD3490800FB26AE /* StartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE722CD3490800FB26AE /* StartModel.swift */; };
+		0A14DE752CD3492900FB26AE /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE742CD3492900FB26AE /* StartView.swift */; };
+		0A14DE772CD3494E00FB26AE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE762CD3494E00FB26AE /* LoginView.swift */; };
+		0A14DE792CD3497300FB26AE /* CountryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE782CD3497300FB26AE /* CountryListView.swift */; };
+		0A14DE7B2CD3499200FB26AE /* RegionListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE7A2CD3499200FB26AE /* RegionListView.swift */; };
+		0A14DE7D2CD349A800FB26AE /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A14DE7C2CD349A800FB26AE /* ModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,20 +65,28 @@
 		0A14DE082CD1F46400FB26AE /* tripplanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tripplanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A14DE0C2CD1F46400FB26AE /* tripplanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tripplanUITests.swift; sourceTree = "<group>"; };
 		0A14DE0E2CD1F46400FB26AE /* tripplanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tripplanUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		0A14DE1C2CD1F4A900FB26AE /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
-		0A14DE1F2CD1F4C900FB26AE /* RegionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionListView.swift; sourceTree = "<group>"; };
-		0A14DE222CD1F4F500FB26AE /* CountryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListView.swift; sourceTree = "<group>"; };
 		0A14DE252CD1F51300FB26AE /* CustomCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalendarView.swift; sourceTree = "<group>"; };
-		0A14DE292CD1F53600FB26AE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		0A14DE2B2CD1F54A00FB26AE /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
-		0A14DE2E2CD1F56400FB26AE /* ItineraryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryDetailView.swift; sourceTree = "<group>"; };
-		0A14DE312CD1F57700FB26AE /* ItineraryCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryCreateView.swift; sourceTree = "<group>"; };
-		0A14DE372CD1F5B600FB26AE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		0A14DE3A2CD1F5CC00FB26AE /* PlaceRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceRow.swift; sourceTree = "<group>"; };
 		0A14DE3F2CD1FCC900FB26AE /* ItineraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryView.swift; sourceTree = "<group>"; };
 		0A14DE412CD1FCE300FB26AE /* Plan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
 		0A14DE432CD1FD1100FB26AE /* ItineraryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryViewModel.swift; sourceTree = "<group>"; };
 		0A14DE452CD206BE00FB26AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0A14DE492CD3471700FB26AE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0A14DE4B2CD3476D00FB26AE /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		0A14DE4D2CD347C700FB26AE /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		0A14DE522CD3480400FB26AE /* ItineraryCreateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryCreateViewModel.swift; sourceTree = "<group>"; };
+		0A14DE542CD3481000FB26AE /* ItineraryCreateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryCreateModel.swift; sourceTree = "<group>"; };
+		0A14DE562CD3482500FB26AE /* ItineraryCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryCreateView.swift; sourceTree = "<group>"; };
+		0A14DE6A2CD348C800FB26AE /* ItineraryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryDetailView.swift; sourceTree = "<group>"; };
+		0A14DE6C2CD348E700FB26AE /* ItineraryDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryDetailModel.swift; sourceTree = "<group>"; };
+		0A14DE6E2CD348F300FB26AE /* ItineraryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItineraryDetailViewModel.swift; sourceTree = "<group>"; };
+		0A14DE702CD3490000FB26AE /* StartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewModel.swift; sourceTree = "<group>"; };
+		0A14DE722CD3490800FB26AE /* StartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartModel.swift; sourceTree = "<group>"; };
+		0A14DE742CD3492900FB26AE /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		0A14DE762CD3494E00FB26AE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		0A14DE782CD3497300FB26AE /* CountryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListView.swift; sourceTree = "<group>"; };
+		0A14DE7A2CD3499200FB26AE /* RegionListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionListView.swift; sourceTree = "<group>"; };
+		0A14DE7C2CD349A800FB26AE /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,7 +185,9 @@
 		0A14DE1B2CD1F49900FB26AE /* Modal */ = {
 			isa = PBXGroup;
 			children = (
-				0A14DE1C2CD1F4A900FB26AE /* ModalView.swift */,
+				0A14DE692CD3489E00FB26AE /* ViewModel */,
+				0A14DE682CD3489800FB26AE /* Model */,
+				0A14DE672CD3489200FB26AE /* View */,
 			);
 			path = Modal;
 			sourceTree = "<group>";
@@ -177,7 +195,9 @@
 		0A14DE1E2CD1F4B400FB26AE /* Region */ = {
 			isa = PBXGroup;
 			children = (
-				0A14DE1F2CD1F4C900FB26AE /* RegionListView.swift */,
+				0A14DE662CD3488A00FB26AE /* ViewModel */,
+				0A14DE652CD3488600FB26AE /* Model */,
+				0A14DE642CD3488100FB26AE /* View */,
 			);
 			path = Region;
 			sourceTree = "<group>";
@@ -185,7 +205,9 @@
 		0A14DE212CD1F4D700FB26AE /* Conutry */ = {
 			isa = PBXGroup;
 			children = (
-				0A14DE222CD1F4F500FB26AE /* CountryListView.swift */,
+				0A14DE632CD3487400FB26AE /* ViewModel */,
+				0A14DE622CD3486F00FB26AE /* Model */,
+				0A14DE612CD3486700FB26AE /* View */,
 			);
 			path = Conutry;
 			sourceTree = "<group>";
@@ -201,7 +223,9 @@
 		0A14DE272CD1F52400FB26AE /* Login */ = {
 			isa = PBXGroup;
 			children = (
-				0A14DE292CD1F53600FB26AE /* LoginView.swift */,
+				0A14DE602CD3486000FB26AE /* ViewModel */,
+				0A14DE5F2CD3485B00FB26AE /* Model */,
+				0A14DE5E2CD3485600FB26AE /* View */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -209,7 +233,9 @@
 		0A14DE282CD1F52A00FB26AE /* Start */ = {
 			isa = PBXGroup;
 			children = (
-				0A14DE2B2CD1F54A00FB26AE /* StartView.swift */,
+				0A14DE5D2CD3484F00FB26AE /* ViewModel */,
+				0A14DE5C2CD3484A00FB26AE /* Model */,
+				0A14DE5B2CD3484600FB26AE /* View */,
 			);
 			path = Start;
 			sourceTree = "<group>";
@@ -217,7 +243,9 @@
 		0A14DE2D2CD1F55100FB26AE /* ItineraryDetail */ = {
 			isa = PBXGroup;
 			children = (
-				0A14DE2E2CD1F56400FB26AE /* ItineraryDetailView.swift */,
+				0A14DE5A2CD3483F00FB26AE /* ViewModel */,
+				0A14DE592CD3483900FB26AE /* Model */,
+				0A14DE582CD3483400FB26AE /* View */,
 			);
 			path = ItineraryDetail;
 			sourceTree = "<group>";
@@ -225,7 +253,9 @@
 		0A14DE302CD1F56A00FB26AE /* ItineraryCreate */ = {
 			isa = PBXGroup;
 			children = (
-				0A14DE312CD1F57700FB26AE /* ItineraryCreateView.swift */,
+				0A14DE512CD347F100FB26AE /* ViewModel */,
+				0A14DE502CD347EC00FB26AE /* Model */,
+				0A14DE4F2CD347E500FB26AE /* View */,
 			);
 			path = ItineraryCreate;
 			sourceTree = "<group>";
@@ -243,7 +273,9 @@
 		0A14DE362CD1F5AC00FB26AE /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				0A14DE372CD1F5B600FB26AE /* HomeView.swift */,
+				0A14DE482CD346F500FB26AE /* ViewModel */,
+				0A14DE472CD346EE00FB26AE /* Model */,
+				0A14DE462CD346E700FB26AE /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -276,6 +308,190 @@
 			isa = PBXGroup;
 			children = (
 				0A14DE432CD1FD1100FB26AE /* ItineraryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0A14DE462CD346E700FB26AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A14DE492CD3471700FB26AE /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A14DE472CD346EE00FB26AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A14DE4D2CD347C700FB26AE /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A14DE482CD346F500FB26AE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0A14DE4B2CD3476D00FB26AE /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0A14DE4F2CD347E500FB26AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A14DE562CD3482500FB26AE /* ItineraryCreateView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A14DE502CD347EC00FB26AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A14DE542CD3481000FB26AE /* ItineraryCreateModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A14DE512CD347F100FB26AE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0A14DE522CD3480400FB26AE /* ItineraryCreateViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0A14DE582CD3483400FB26AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A14DE6A2CD348C800FB26AE /* ItineraryDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A14DE592CD3483900FB26AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A14DE6C2CD348E700FB26AE /* ItineraryDetailModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A14DE5A2CD3483F00FB26AE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0A14DE6E2CD348F300FB26AE /* ItineraryDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0A14DE5B2CD3484600FB26AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A14DE742CD3492900FB26AE /* StartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A14DE5C2CD3484A00FB26AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A14DE722CD3490800FB26AE /* StartModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A14DE5D2CD3484F00FB26AE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0A14DE702CD3490000FB26AE /* StartViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0A14DE5E2CD3485600FB26AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A14DE762CD3494E00FB26AE /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A14DE5F2CD3485B00FB26AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A14DE602CD3486000FB26AE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0A14DE612CD3486700FB26AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A14DE782CD3497300FB26AE /* CountryListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A14DE622CD3486F00FB26AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A14DE632CD3487400FB26AE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0A14DE642CD3488100FB26AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A14DE7A2CD3499200FB26AE /* RegionListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A14DE652CD3488600FB26AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A14DE662CD3488A00FB26AE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0A14DE672CD3489200FB26AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0A14DE7C2CD349A800FB26AE /* ModalView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0A14DE682CD3489800FB26AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0A14DE692CD3489E00FB26AE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -410,21 +626,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A14DE232CD1F4F500FB26AE /* CountryListView.swift in Sources */,
-				0A14DE2F2CD1F56400FB26AE /* ItineraryDetailView.swift in Sources */,
+				0A14DE532CD3480400FB26AE /* ItineraryCreateViewModel.swift in Sources */,
 				0A14DE422CD1FCE300FB26AE /* Plan.swift in Sources */,
-				0A14DE2A2CD1F53600FB26AE /* LoginView.swift in Sources */,
-				0A14DE1D2CD1F4A900FB26AE /* ModalView.swift in Sources */,
-				0A14DE2C2CD1F54A00FB26AE /* StartView.swift in Sources */,
+				0A14DE4C2CD3476D00FB26AE /* HomeViewModel.swift in Sources */,
+				0A14DE772CD3494E00FB26AE /* LoginView.swift in Sources */,
+				0A14DE6F2CD348F300FB26AE /* ItineraryDetailViewModel.swift in Sources */,
+				0A14DE572CD3482500FB26AE /* ItineraryCreateView.swift in Sources */,
+				0A14DE7B2CD3499200FB26AE /* RegionListView.swift in Sources */,
+				0A14DE732CD3490800FB26AE /* StartModel.swift in Sources */,
+				0A14DE752CD3492900FB26AE /* StartView.swift in Sources */,
+				0A14DE6D2CD348E700FB26AE /* ItineraryDetailModel.swift in Sources */,
+				0A14DE792CD3497300FB26AE /* CountryListView.swift in Sources */,
 				0A14DDF42CD1F46100FB26AE /* ContentView.swift in Sources */,
 				0A14DE402CD1FCC900FB26AE /* ItineraryView.swift in Sources */,
-				0A14DE322CD1F57700FB26AE /* ItineraryCreateView.swift in Sources */,
-				0A14DE202CD1F4C900FB26AE /* RegionListView.swift in Sources */,
-				0A14DE382CD1F5B600FB26AE /* HomeView.swift in Sources */,
+				0A14DE4E2CD347C700FB26AE /* HomeModel.swift in Sources */,
+				0A14DE6B2CD348C800FB26AE /* ItineraryDetailView.swift in Sources */,
+				0A14DE552CD3481000FB26AE /* ItineraryCreateModel.swift in Sources */,
 				0A14DDF22CD1F46100FB26AE /* tripplanApp.swift in Sources */,
+				0A14DE7D2CD349A800FB26AE /* ModalView.swift in Sources */,
 				0A14DE3B2CD1F5CC00FB26AE /* PlaceRow.swift in Sources */,
+				0A14DE4A2CD3471700FB26AE /* HomeView.swift in Sources */,
 				0A14DE262CD1F51300FB26AE /* CustomCalendarView.swift in Sources */,
 				0A14DE442CD1FD1100FB26AE /* ItineraryViewModel.swift in Sources */,
+				0A14DE712CD3490000FB26AE /* StartViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
